@@ -1,9 +1,9 @@
 const SignIn; React.FC = {} => {
     return (
-        <div>
+        <Layout>
             <h1>SignIn</h1>
             {/* Add your content here */}
-            </div>
+        </Layout>
     );
 };
 

@@ -22,12 +22,11 @@ return routes;
 
 function App() {
   return(
-    <Router>
-      <Navbar/>
-      <AppRoutes/>
-    </Router>
+    <>
+      <div className='bg-gray-500'> Hello, World!</div>
+    </>
+    );
+  }
 
-  );
- }
 
- export default App;
+  export default App;

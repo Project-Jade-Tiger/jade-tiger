@@ -1,9 +1,9 @@
 const MyOrders; React.FC = {} => {
     return (
-        <div>
+        <Layout>
                 <h1>MyOrders</h1>
                 {/* Add your content here*/}
-            </div>
+        </Layout>
         );
 };
 
