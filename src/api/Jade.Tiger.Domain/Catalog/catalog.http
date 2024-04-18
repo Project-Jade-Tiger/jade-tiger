@@ -1,0 +1,28 @@
+## Should return 200
+GET http://localhost:5264/api/catalog HTTP/1.1
+
+### Should return 200
+Get http://localhost:5264/api/catalog/42 HTTP/1.1
+
+### Should return 404
+GET http://localhost:5264/api/catalog/test HTTP/1.1
+
+### Post a new catalog item
+POST http://localhost:5264/api/catalog HTTP/1.1
+Content-Type application/json
+
+{
+    "name": "Test",
+    "description": "Test description",
+    "brand": "Test brand",
+    "price": 10.0
+}
+
+POST http://localhost:5264/api/catalog/2/ratings HTTP/1.1
+Content-Type application/json
+
+{
+    "stars": 3,
+    "userName": "Test User",
+    "review": "Test review"
+}
