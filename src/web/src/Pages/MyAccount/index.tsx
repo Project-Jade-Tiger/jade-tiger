@@ -1,4 +1,6 @@
-const MyAccount; React.FC = {} => {
+import Layout from "../../Components/Layout";
+
+const MyAccount: React.FC = () => {
     return (
         <Layout>
             <h1>MyAccount</h1>

@@ -6,8 +6,8 @@ describe("App component tests", () => {
     
         render(<App/>)
 
-    expect(screen.getByText(/Jade Tiger/i))    
-    .toBeDefined()
+        expect(screen.getByText(/Jade Tiger/i))    
+        .toBeDefined()
     })
 
 
