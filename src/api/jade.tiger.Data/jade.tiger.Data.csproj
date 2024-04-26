@@ -10,4 +10,8 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Jade.Tiger.Domain\Jade.Tiger.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
